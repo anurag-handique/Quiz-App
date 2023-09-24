@@ -1,13 +1,13 @@
 const questions = [
-    {
-        question: "Which of the following is a dynamically typed programming language?",
-        answers: [
-            { text: "Java", correct: false },
-            { text: "C++", correct: false },
-            { text: "JavaScript", correct: true },
-            { text: "Python", correct: false },
-        ]
-    },
+  {
+    question: "Which of the following JavaScript design patterns focuses on creating objects without exposing the instantiation logic to the client?",
+    answers: [
+        { text: "Factory Pattern", correct: true },
+        { text: "Observer Pattern", correct: false },
+        { text: "Singleton Pattern", correct: false },
+        { text: "Decorator Pattern", correct: false }
+    ]
+},
     {
         question: "What is the purpose of the 'typeof' operator in JavaScript?",
         answers: [
